@@ -1,0 +1,15 @@
+/* General */
+.vh100{ height: 100vh; }
+/* Top */
+#top{ background-image: url(../img/top_back.jpg); background-size: contain; background-repeat: no-repeat; background-position: top; }
+/* Menu */
+#menu{ background-color: #9E005D; color: #FFF; }
+#menu .nav-link{ margin-right: 10px; }
+/* Opciones */
+.lista-opciones{ margin: 0; padding: 0; }
+.lista-opciones li{ list-style-type: none; display: inline-block; }
+.lista-opciones li img{ max-width: 60px; }
+.btn-outline-white { color: #fff; border-color: #fff; }
+.btn-outline-white:hover { color: #6c757d; border-color: #6c757d; background-color: #fff; }
+/* login */
+#login{background-image: url(../img/vias5.JPG); background-size: cover; background-repeat: no-repeat; background-position: center center; }
