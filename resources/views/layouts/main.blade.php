@@ -12,18 +12,19 @@
     
     <title>SIGPREMDN</title>
 </head>
-<body>
+<body id="back-internas">
     <!-- Top -->
     <div class="container-fluid" id="top">
         <div class="row">
             <div class="col-12">
                 <div class="container">
-                    <div class="row pt-5">
+                    <div class="row pt-5 pb-2">
                         <div class="col-6 text-center">
-                            <!-- <img class="img-fluid logo" src="{!! asset('img/esing.png') !!}" alt=""> -->
+                            <img class="img-fluid logo" src="{!! asset('img/logo-home.png') !!}" alt="">
                         </div>
                         <div class="col-6 text-center">
-                            <!-- <img class="img-fluid logo" src="{!! asset('img/Escudo_Colombia.png') !!}" alt=""> -->
+                            <img class="img-fluid logo" src="{!! asset('img/logo-bicentenario.png') !!}" alt="">
+                            <img class="img-fluid logo" src="{!! asset('img/escudo-colombia.png') !!}" alt="">
                         </div>
                     </div>
                 </div>
@@ -80,7 +81,7 @@
         </div>
     </div>
     <!-- Content -->    
-    <main class="py-4">
+    <main class="py-4 d-flex align-self-stretch">
         @yield('content')
     </main>
 

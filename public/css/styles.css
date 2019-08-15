@@ -1,7 +1,12 @@
+/* Fuentes */
+h1{color: #FFF;}
 /* General */
 .vh100{ height: 100vh; }
+.logo{max-height: 100px;}
+.btn-sigpre{background-color: #9E005D; color: #FFF;}
+.btn-sigpre:hover{background-color: #000; color: #FFF;}
 /* Top */
-#top{ background-image: url(../img/top_back.jpg); background-size: contain; background-repeat: no-repeat; background-position: top; }
+#top{ background: url(../img/top_back.jpg) #FFF; background-size: contain; background-repeat: no-repeat; background-position: top; }
 /* Menu */
 #menu{ background-color: #9E005D; color: #FFF; }
 #menu .nav-link{ margin-right: 10px; }
@@ -13,3 +18,12 @@
 .btn-outline-white:hover { color: #6c757d; border-color: #6c757d; background-color: #fff; }
 /* login */
 #login{background-image: url(../img/vias5.JPG); background-size: cover; background-repeat: no-repeat; background-position: center center; }
+#mapa-colombia{background-image: url(../img/mapa-colombia.png); background-size: contain; background-repeat: no-repeat; background-position: center center; padding: 160px 120px;}
+/* main */
+.btn-outline-secondary {color: #fff; background-color: #6c757d; border-color: #6c757d;}
+.btn-outline-secondary:hover{background-color: #000; border-color: #000;}
+/* Que es */
+#back-internas{height: 100vh; background-image: url(../img/fondo-interna.jpg); background-size: cover; background-repeat: no-repeat; background-position: right center; }
+.card{border: 1px solid #9E005D;}
+.card .card-header{background-color: #9E005D; color: #FFF;}
+

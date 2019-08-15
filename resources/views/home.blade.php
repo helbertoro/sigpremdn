@@ -3,8 +3,14 @@
 @section('content')
 <div class="container-fluid">
     <div class="row">
+        <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="http://ec2-18-222-176-232.us-east-2.compute.amazonaws.com/sigpremdn/" allowfullscreen></iframe>
+            </div>
+
+        </div>
         <!-- left -->
-        <div class="col-3">
+        <!-- <div class="col-3">
             <div class="card">
                 <div class="card-header">Búsqueda</div>
                 <div class="card-body">
@@ -28,9 +34,9 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- center -->
-        <div class="col-6">
+        <!-- <div class="col-6">
             <div class="card">
                 <div class="card-header">Información geográfica</div>
                 <div class="card-body">
@@ -45,9 +51,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- right -->
-        <div class="col-3">
+        <!-- <div class="col-3">
             <div class="card">
                 <div class="card-header">Opciones</div>
 
@@ -62,7 +68,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 @endsection
